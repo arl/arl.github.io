@@ -300,7 +300,7 @@ header h2 {
 			<p>Designing/developing in Go a distributed system to control the next generation fruit/vegetable sorting machines for <a href="https://en.unitec-group.com">Unitec</a>.</p>
 			<ul class="highlights">
 				<li>Developed a distributed system capable of processing 2500 fruits per second, scheduling the reading of input (sensors for size, weight, color, etc.) and operating the exits while fruits are coming up at a constant velocity via a conveyer belt.
-				<li>The project required specialized hardward and linux kernel modules, some IPC, TCP/UDP, synchronization, compression, serialization</li>
+				<li>The project required specialized hardware and linux kernel modules, involved a lot of concurrency, synchronization, compression, serialization, TCP/UDP/HTTP</li>
 				<li>Pushing the Go runtime to its limits on embedded platforms with relatively limited specs (arm32), it required a lot of testing, benchmarking, profiling, tracing, tuning, performance optimization in order to respect soft-real-time constraints</li>
 				<li>I instrumented the system and used Prometheus/Grafana for monitoring</li>
 			</ul>
